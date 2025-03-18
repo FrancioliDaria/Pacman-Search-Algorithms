@@ -1,0 +1,51 @@
+\documentclass[helvetica, 10pt]{article}
+
+% If you're new to LaTeX, here's some short tutorials:
+% https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+% https://en.wikibooks.org/wiki/LaTeX/Basics
+
+% Formatting
+\usepackage{blindtext}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+
+% Math
+% https://www.overleaf.com/learn/latex/Mathematical_expressions
+\usepackage{amsmath, amsfonts, amssymb, mathtools}
+
+% Images
+% https://www.overleaf.com/learn/latex/Inserting_Images
+\usepackage{graphicx, float}
+
+% Algorithms
+% https://www.overleaf.com/learn/latex/algorithms
+% https://en.wikibooks.org/wiki/LaTeX/Algorithms
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{algorithmic}
+
+% Code syntax highlighting
+% https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted
+\usepackage{minted}
+\usemintedstyle{borland}
+
+
+% ====================== TITLE =========================================
+\title{Artificial intelligence - Project 1 \\ - Search problems - }
+
+% introduceti numele autorului aici
+\author{George Botis & Daria Francioli}
+\date{7/11/2022}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\include{text/1_Introducere}
+\include{text/2_Implementare}
+\include{text/3_Grafica Miss Pacman}
+\include{text/4_Testare și Comparare}
+\include{text/5_Concluzii}
+
+\end{document}
